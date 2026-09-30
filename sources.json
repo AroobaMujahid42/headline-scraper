@@ -1,0 +1,18 @@
+[
+  {
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "item": "[data-testid$='-card']",
+    "title": "[data-testid='card-headline']",
+    "link": "a[href*='/news/']",
+    "time": "[data-testid='card-metadata-lastupdated']"
+  },
+  {
+    "name": "BBC News (RSS)",
+    "url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "item": "item",
+    "title": "title",
+    "link": "link",
+    "time": "pubDate"
+  }
+]
